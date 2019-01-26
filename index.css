@@ -1,0 +1,37 @@
+:root{
+	font-size:16px;
+};
+
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+.container .title_container 
+{
+	display:flex;
+	justify-content: center;
+	background-color: lightgrey;
+
+}
+
+
+.title_container a
+{
+	font-size: 1rem;
+	font-family: "Playfair Display", serif;
+	font-weight: 700;
+	flex-flow: row wrap;
+	padding-top:2vh;
+	padding-bottom: 2vh;
+	padding-left:8vw;
+	padding-right: 8vw; 
+	color:black;
+}
+
+.title_container a:hover
+{
+	background-color: orange;
+	box-shadow: 0 3px 20px 0 orange;
+}
